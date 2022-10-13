@@ -23,7 +23,7 @@ function TodoList() {
                         setTask(e.target.value)
                     }}></Form.Control>
                     <Button className="shadow-none" onClick={() => {
-                        setTasks([...tasks, { todo: task }])
+                        setTasks([...tasks, { todo: task }]);
                     }}>Add</Button>
                 </InputGroup>
                 <ListGroup className="mt-5">
